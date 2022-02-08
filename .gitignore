@@ -1,0 +1,15 @@
+
+.idea/
+.idea/modules/*
+.idea/modules.xml
+
+out/
+
+out
+**/*.log
+build
+dependencies
+node_modules/
+.terraform
+*.plan
+.DS_Store

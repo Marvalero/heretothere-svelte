@@ -8,6 +8,7 @@ body {
 	color: #333;
 	margin: 0;
 	padding: 8px;
+	background: olive;
 	box-sizing: border-box;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
@@ -60,4 +61,29 @@ button:not(:disabled):active {
 
 button:focus {
 	border-color: #666;
+}
+
+.btn-rounded {
+	background-color: #EA4C89;
+	border-radius: 50%;
+	border-style: none;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+}
+.btn-primary {
+	background-color: #EA4C89;
+	border-radius: 50%;
+	border-style: none;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+	height: 30px;
+
 }
