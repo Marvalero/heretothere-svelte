@@ -32,6 +32,8 @@
     }
     .game-handler-wrapper {
         height:400px;
-        padding: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 </style>

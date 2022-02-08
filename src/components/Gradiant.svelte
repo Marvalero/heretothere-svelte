@@ -24,7 +24,7 @@
 </Motion>
 
 {#if displayValue}
-    <Motion animate={{ rotate: levelRotation }} transition={{ duration: .5 }} let:motion>
+    <Motion animate={{ rotate: levelRotation }} transition={{ duration: 0 }} let:motion>
         <div use:motion class="gradient-container"/>
     </Motion>
 {:else}
@@ -46,6 +46,7 @@
         background-image: url("/images/wheelBGnum.png");
         background-repeat: no-repeat;
         background-size: 100% auto;
+        z-index: 10;
         width: 800px;
         height: 800px;
         position: absolute;
@@ -57,6 +58,9 @@
         background-size: 100% auto;
         width: 800px;
         height: 400px;
-        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        z-index: 10;
     }
 </style>
